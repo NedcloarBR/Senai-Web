@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula04</title>
+</head>
+<body>
+  <form name="f1" id="f1" action="processar.php" method="post">
+    Nome: 
+    <input type="text" name="nome" id="nome" />
+    <br>
+    Idade:
+    <input type="text" name="idade" id="idade" size="3"/>
+    <br>
+    Senha: <input type="password" name="senha" id="senha" size="50" />
+    <br>
+    Obs: <textarea name="obs" id="obs" cols="30" rows="3">Escreva seu comentário...</textarea>
+    <br>
+    Estação: <select name="estacao" id="estacao">
+      <option value="primavera">Primavera</option>
+      <option value="verao">Verão</option>
+      <option value="outono">Outono</option>
+      <option value="inverno">Inverno</option>
+    </select>
+    <br>
+    Comidas preferidas:
+    <br>
+    <input type="checkbox" name="c1" id="c1">Arroz
+    <br>
+    <input type="checkbox" name="c2" id="c2">Feijão
+    <br>
+    <input type="checkbox" name="c3" id="c3">Massa
+    <br>
+    <input type="checkbox" name="c4" id="c4">Carne
+    <br>
+    Time de futebol
+    <br>
+    <input type="radio" name="time" id="time" value="inter">Internacional
+    <br>
+    <input type="radio" name="time" id="time" value="flamengo">Flamengo
+    <br>
+    <input type="hidden" name="operacao" id="operacao" value="cadastrar">
+    <input type="submit" value="pesquisar" />
+  </form>
+  <input type="button" onclick="alert('Olá, Mundo!')" value="teste de botão">
+</body>
+</html>
