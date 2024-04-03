@@ -3,8 +3,7 @@
     "formulahendry.auto-rename-tag", 
     "naumovs.color-highlight", 
     "WallabyJs.console-ninja", 
-    "dbaeumer.vscode-eslint", 
-    "esbenp.prettier-vscode", 
+    "biomejs.biome",
     "ritwickdey.LiveServer",
     "ecmel.vscode-html-css"
   ]

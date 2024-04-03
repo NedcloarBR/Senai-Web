@@ -1,0 +1,12 @@
+Aula do dia 27/03/2024
+- JavaScript
+  - function
+  - loops
+    - for
+    - while
+  - if/else
+  - alert
+  - prompt
+  - console
+  - document
+    - write
