@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script type="text/javascript">
+    function eventoBotao() {
+      alert("OLA");
+    }
+
+    function mostrarTexto() {
+      var nome = document.getElementById("nome");
+      alert(nome.value);
+      if(nome.value.toString().length > 20) {
+        alert("Nome grande");
+      } 
+    }
+
+    function mostrarNumeros() {
+      var valor = document.getElementById("numeros");
+      if(isNaN(valor.value)) {
+        valor.value = ""
+      }
+    }
+  </script>
+
+  <form>
+    <input type="button" value="Clique aqui" onfocus="eventoBotao()">
+    </br>
+    <input type="text" name="nome" id="nome" onkeyup="mostrarTexto()">
+    </br>
+    Somente úmeros
+    <input type="text" name="numeros" id="numeros" onkeyup="mostrarNumeros()">
+  </form>
+</body>
+</html>
