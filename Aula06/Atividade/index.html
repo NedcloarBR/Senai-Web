@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade 06</title>
+  <script src="./lib.js"></script>
+</head>
+<body onload="hello()">
+  <input type="button" id="a01" onclick="mostraDados()" value="Clique aqui"></input>
+  <form>
+    <input type="text" id="a02"></input>
+    <input type="button" id="a02-b" value="Clique aqui" onclick="mostraCaixaTexto()"></input>
+  </form>
+  </br>
+  </br>
+  </br>
+  </br>
+  <form>
+    Nome: <input type="text" id="a04-nome"></input>
+  </br>
+  Idade: <input type="text" id="a04-idade"></input>
+  </br>
+  RG: <input type="text" id="a04-rg"></input>
+  </br>
+  Endereço: <input type="text" id="a04-endereco"></input>
+  <input type="button" value="Validar dados" onclick="validarDados()">
+  </form>
+  </br>
+  </br>
+  </br>
+  </br>
+  <form action="processaProduto.php" method="post">
+    Produto
+    </br>
+    Nome: <input type="text" id="a05-nome" name="a05-nome"></input>
+    </br>
+    Preço: <input type="text" id="a05-preco" name="a05-preco"></input>
+  <input type="submit" value="Validar produto" onclick="return validarProduto()">
+
+  </form>
+</body>
+</html>
