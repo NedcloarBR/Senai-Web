@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <script src="./lib.js"></script>
+</head>
+<body>
+  <div id="login-form">
+    <h2>Login</h2>
+    <label for="username">Usuário:</label>
+    <input type="text" id="username"><br><br>
+    <label for="password">Senha:</label>
+    <input type="password" id="password"><br><br>
+    <button onclick="login()">Entrar</button>
+    <p id="error-message" class="error"></p>
+    <button id="welcome-button" onclick="openWelcomePage()">Abrir Bem-vindo</button>
+  </div>
+</body>
+</html>
