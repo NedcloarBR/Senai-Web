@@ -5,6 +5,7 @@
     "WallabyJs.console-ninja", 
     "biomejs.biome",
     "ritwickdey.LiveServer",
-    "ecmel.vscode-html-css"
+    "ecmel.vscode-html-css",
+    "brapifra.phpserver"
   ]
 }

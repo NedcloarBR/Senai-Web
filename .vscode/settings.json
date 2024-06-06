@@ -15,6 +15,7 @@
     "comentario",
     "endereco",
     "estacao",
+    "maximo",
     "numeros",
     "Numeros",
     "operacao",
@@ -22,5 +23,5 @@
     "relatorio",
     "Uhlein",
     "verao"
-  ],
+  ]
 }
