@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  senai-web:
+    container_name: Senai-Web
+    image: mariadb:latest
+    restart: always
+    environment:
+      - MARIADB_USER=senai_web_db_user
+      - MARIADB_PASSWORD=senai_web_db_password
+      - MARIADB_ROOT_USER=root
+    ports:
+      - "3306:3306"
+    expose:
+      - 3306
+    volumes:
+      - db_data:/var/lib/mysql
+    networks:
+      - senai-network
+
+volumes:
+  db_data:
+
+networks:
+  senai-network:
+    driver: bridge
